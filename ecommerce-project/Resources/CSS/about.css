@@ -12,21 +12,38 @@ body {
     padding: 70px;
     
   }
+  .banner #top {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-image: url("/Resources/images/Ecommerce-Banner-Ad-Design-1200x400.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .banner .container{
+    background-image: none;
+  }
   
-  h1{
-    text-decoration: underline #b9b9b9;
-    color:rgb(83, 83, 214)
-    
-    
-}
-.main{
-    text-align: justify;
-    font-family: "Times New Roman", Times, serif;
-    font-size: 20px;
-    line-height: normal;
-}
-}
-
+  .banner .inner-content {
+    padding: 150px 0px;
+    text-align: center;
+  }
+  
+  .banner .inner-content h2 {
+    font-size: 52px;
+    color: black;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+  
+  .banner .inner-content span {
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+    font-style: italic;
+  }
+  
+  
 
 h2{
     text-shadow: .25px .25px;
@@ -40,4 +57,11 @@ h2{
           0.3em 0.3em 1em rgba(0,0,0,0.3);
           
          
+}
+.our-team{
+  margin: 40px;
+}
+.footer-dark .container h3{
+  color-scheme: dark; 
+
 }
