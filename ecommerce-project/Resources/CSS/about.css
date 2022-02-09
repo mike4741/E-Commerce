@@ -21,6 +21,37 @@ body {
   
   .framework {
     color: darkcyan;
+  }
+  .page-heading .inner-content {
+    padding: 150px 0px;
+    text-align: center;
+  }
+  
+  .page-heading .inner-content h2 {
+    font-size: 52px;
+    color:black;
+    font-weight: 500;
+    margin-bottom: 15px;
+    font-family: sans-serif;
+    
+  }
+  
+  .page-heading .inner-content span {
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  .about-page-heading {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-image: url("C:\Users\mehbo\OneDrive\Desktop\gen-saleha\E-Commerce\ecommerce-project\Resources\images\Ecommerce-Banner-Ad-Design-1200x400.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
   .imp{
     box-sizing: border-box;
     width: 100%;
@@ -28,38 +59,7 @@ body {
     padding: 70px;
     
   }
-  .banner #top {
-    margin-top: 30px;
-    margin-bottom: 30px;
-    background-image: url("/Resources/images/Ecommerce-Banner-Ad-Design-1200x400.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-  .banner .container{
-    background-image: none;
-  }
-  
-  .banner .inner-content {
-    padding: 150px 0px;
-    text-align: center;
-  }
-  
-  .banner .inner-content h2 {
-    font-size: 52px;
-    color: black;
-    font-weight: 700;
-    margin-bottom: 15px;
-  }
-  
-  .banner .inner-content span {
-    font-size: 16px;
-    font-weight: 500;
-    color: black;
-    font-style: italic;
-  }
-  
-  
+ 
 
 h2{
     text-shadow: .25px .25px;
