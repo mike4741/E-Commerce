@@ -1,12 +1,66 @@
-
-body {
+html ,body{
   background-color: rgb(243, 241, 241);
-  
+  margin: 3px;
+  padding: 3px;
+}
+nav{
+  margin-bottom: 10px;;
+}
+#logo{
+  width: 5rem;
+  height: 3rem;
+}
+
+#dropdownMenuLink{
+  width: 10rem;
+  height: 3rem;
+}
+
+hr.light-50{
+  border-top: 1px solid #d5d5d5;
+  width: 100%;
+  align-items: center;
+  margin-top: .8rem;
+  margin-bottom: 1rem;
+}
+.btn-new{ color: rgb(190, 197, 202);
+}
+.page-heading .inner-content {
+  padding: 150px 0px;
+  text-align: center;
+}
+
+.page-heading .inner-content h2 {
+  font-size: 52px;
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.page-heading .inner-content span {
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  font-style: italic;
+}
+
+.about-page-heading {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-image: url(/Resources/Images/banner-g51877f510_1280.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.about-us{
+  padding: 75px 0px 0px;
 }
 #info-list {
   list-style-type: none;
 }
-
+#info{
+  padding: 75px 0px 0px;
+}
 #info,
 #info-list {
   text-align: center;
@@ -25,38 +79,6 @@ body {
   text-align: center;
 }
 
-.page-heading .inner-content h2 {
-  font-size: 52px;
-  color:black;
-  font-weight: 500;
-  margin-bottom: 15px;
-  font-family: sans-serif;
-  
-}
-
-.page-heading .inner-content span {
-  font-size: 20px;
-  font-weight: 500;
-  color: black;
-  font-style: italic;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-.about-page-heading {
-  margin-top: 30px;
-  margin-bottom: 30px;
-  background-image: url("C:\Users\mehbo\OneDrive\Desktop\gen-saleha\E-Commerce\ecommerce-project\Resources\images\Ecommerce-Banner-Ad-Design-1200x400.jpg");
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-.imp{
-  box-sizing: border-box;
-  width: 100%;
-  border:  10px;
-  padding: 70px;
-  
-}
 
 
 h2{
@@ -75,7 +97,16 @@ h2{
 .our-team{
 margin: 40px;
 }
+#img{
+  width: 13.8rem;
+  height: 15rem;
+}
 .footer-dark .container h3{
 color-scheme: dark; 
 
+}
+#logo-f{
+  width: 3rem;
+  height: 2rem;
+  justify-content: center;
 }

@@ -1,0 +1,66 @@
+html ,body{
+    background-color: rgb(243, 241, 241);
+    margin: 3px;
+    padding: 3px;
+  }
+  nav{
+    margin-bottom: 10px;;
+  }
+  #logo{
+    width: 5rem;
+    height: 3rem;
+  }
+  
+  #dropdownMenuLink{
+    width: 10rem;
+    height: 3rem;
+  }
+  
+  hr.light-50{
+    border-top: 1px solid #d5d5d5;
+    width: 100%;
+    align-items: center;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+  }
+  .btn-new{ color: rgb(190, 197, 202);
+  }
+  .page-heading .inner-content {
+    padding: 150px 0px;
+    text-align: center;
+  }
+  
+  .page-heading .inner-content h2 {
+    font-size: 52px;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+  
+  .page-heading .inner-content span {
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    font-style: italic;
+  }
+  
+  .about-page-heading {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-image: url(/Resources/Images/banner-g51877f510_1280.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .section-heading{
+    padding: 75px 0px 10px;
+
+  }
+
+  .subscribe{
+    padding: 75px 0px 10px;
+  }
+  #logo-f{
+    width: 3rem;
+    height: 2rem;
+  }
