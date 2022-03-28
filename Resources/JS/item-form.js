@@ -1,11 +1,8 @@
 
 const itemsController = new ItemsController();
-const element = document.getElementById('list-items');
-
-element.addEventListener('load',itemsController.getItem());
 
 
-const newItemForm = document.querySelector('#newItemForm');
+ newItemForm = document.querySelector('#newItemForm');
 
 newItemForm.addEventListener('submit',(e)=>{
  e.preventDefault();
@@ -20,7 +17,7 @@ newItemForm.addEventListener('submit',(e)=>{
  const _description = newItemDescription.value;
  const _imgUrl = newItemImageUrl.value;
  const _price = newItemPrice.value;
-
+console.log(_name + _description + _price + _imgUrl);
 
  itemsController.addItem(_name,_description,_imgUrl,_price);
 

@@ -72,3 +72,8 @@ hr.light-100{
     color: rgb(190, 197, 202);
 }
 
+#logo-f{
+    width: 3rem;
+    height: 2rem;
+    justify-content: center;
+  }
